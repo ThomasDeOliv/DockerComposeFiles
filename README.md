@@ -18,6 +18,7 @@ MONGO_INITDB_ROOT_PASSWORD:
 ```
 
 ## Installations
+Open a command prompt and type these commands to install the following applications :
 ### MariaDB
 ```sh
 git clone https://github.com/ThomasDeOliv/DockerComposeFiles
