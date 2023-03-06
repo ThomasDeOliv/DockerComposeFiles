@@ -1,0 +1,20 @@
+version: '3.0'
+
+name: mongodb_provider
+
+services:
+
+  MongoDB:
+    image: mongo:latest
+    container_name: MongoDB
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: 
+      MONGO_INITDB_ROOT_PASSWORD: 
+
+networks:
+  default:
+    name: mongodb_provider_network
+    driver: bridge
